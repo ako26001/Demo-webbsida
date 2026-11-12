@@ -39,7 +39,7 @@ För att skapa en huvudrubrik skriver du `<h1>DinRubrik</h1>`. `<h2>`, `<h3>` oc
 Använd `<p>`för att skriva brödtext. Börjar du sedan skriva lorem och väljer Emmet Abbreviation "Lorem" får du in Lorem Ipsum som exempeltext. 
 
 ## Steg 6 - att göra en punktlista
-Skriv in `ul` och välj Emmet Abbreviation ul för att skapa en punktlista. Skriv `li` och välj Emmet Abbreviation li för att skapa en listpunkt. Byt rad och upprepa `li` för en ny punkt. 
+Skriv in `<ul>` och välj Emmet Abbreviation ul för att skapa en punktlista. Skriv `li` och välj Emmet Abbreviation li för att skapa en listpunkt. Byt rad och upprepa `li` för en ny punkt. 
 
 Det bör se ut så här då. 
 ```
@@ -55,12 +55,12 @@ Det bör se ut så här då.
 Upprepa steg 6 men byt ut `ul` till `ol`. 
 
 ## Steg 8 - infoga en länk
-Skriv in ett a på en tom rad och välj Emmet Abbreviation för a. Då kommer det se ut så här: `<a href=""></a>`. Inom citattecken lägger du in önskad webbadress. Det du vill att webbplatsen ska kallas på din sida skriver du precis innan `</a>`.
+Skriv in `a` på en tom rad och välj Emmet Abbreviation för a. Då kommer det se ut så här: `<a href=""></a>`. Inom citattecken lägger du in önskad webbadress. Det du vill att webbplatsen ska kallas på din sida skriver du precis innan `</a>`.
 
 Så här ser det ut om man lägger in MDU. `<a href="https://mdu.se">Mälardalens universitet</a>`
 
 ## Steg 9 - skapa en tabell
-Skriv in table och välj Emmet Abbreviation för table. Lägg sedan till `<thead>` för att få rubriker över kolumnerna.
+Skriv in table och välj Emmet Abbreviation för table. Lägg sedan till `<thead>` och sen `<th>`för att få rubriker över kolumnerna. `<tr>` står för en rad och `<td>` står för en kolumn på den raden. Alltså ska `<td>` finnas inom varje `<tr>` likt exemplet nedan.
 
 ```
  <table>
