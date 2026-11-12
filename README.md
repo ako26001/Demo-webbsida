@@ -60,10 +60,24 @@ Skriv in ett a på en tom rad och välj Emmet Abbreviation för a. Då kommer de
 Så här ser det ut om man lägger in MDU. `<a href="https://mdu.se">Mälardalens universitet</a>`
 
 ## Steg 9 - skapa en tabell
+Skriv in table och välj Emmet Abbreviation för table. Lägg sedan till `<thead>` för att få rubriker över kolumnerna.
 
-
-
-
+```
+ <table>
+            <thead>
+                <th>ja</th>
+                <th>nej</th>
+            </thead>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+    </table>
+```
 
 ## Resultatet
 Så här ser det ut när du är klar och visar projektet med Live server.
