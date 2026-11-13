@@ -46,12 +46,10 @@ Skriv in `<ul>` och välj Emmet Abbreviation ul för att skapa en punktlista. Sk
 
 Det bör se ut så här då. 
 ```
- <p>
-      <ul>
-          <li>exempel1</li>
-          <li>exempel2</li>
-     </ul>
-</p> 
+<ul>
+      <li>exempel1</li>
+      <li>exempel2</li>
+</ul>
 ```
 
 ## Steg 7 - att göra en numrerad lista
